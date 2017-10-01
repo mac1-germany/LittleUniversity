@@ -1,0 +1,5 @@
+Table;Column;Datatype;Primany
+;;;
+Student;StudentID;Integer;TRUE
+Student;StudentFirstName;varchar(60);
+Student;StudentLastName;varchar(60);

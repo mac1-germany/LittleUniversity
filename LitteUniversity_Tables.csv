@@ -1,5 +1,5 @@
-Table;Column;Datatype;Primany
+<parent>;Name;Datatype;Primary
 ;;;
 Student;StudentID;Integer;TRUE
-Student;StudentFirstName;varchar(60);
-Student;StudentLastName;varchar(60);
+Student;StudentFirstName;hana.VARCHAR(60);
+Student;StudentLastName;hana.VARCHAR(60);

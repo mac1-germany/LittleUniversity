@@ -1,7 +1,15 @@
 <parent>;Name;Datatype;Primary
 ;;;
-Student;StudentID;Integer;WAHR
+Student;StudentID;Integer;TRUE
 Student;StudentFirstName;hana.VARCHAR(60);
 Student;StudentLastName;hana.VARCHAR(60);
 Student;StudentBirthDate;UTCDatetime;
 Student;StudentMatricleNumber;hana.VARCHAR(60);
+;;;
+Address;AddressID;Integer;TRUE
+Address;AddressCountry;hanaVARCHAR(60);
+Address;AddressState;hanaVARCHAR(60);
+Address;AddressZIP;hanaVARCHAR(5);
+Address;AddressCity;hanaVARCHAR(60);
+Address;AddressStreet;hanaVARCHAR(60);
+Address;AddressStreetNumber;hanaVARCHAR(10);

@@ -1,5 +1,7 @@
 <parent>;Name;Datatype;Primary
 ;;;
-Student;StudentID;Integer;TRUE
+Student;StudentID;Integer;WAHR
 Student;StudentFirstName;hana.VARCHAR(60);
 Student;StudentLastName;hana.VARCHAR(60);
+Student;StudentBirthDate;UTCDatetime;
+Student;StudentMatricleNumber;hana.VARCHAR(60);

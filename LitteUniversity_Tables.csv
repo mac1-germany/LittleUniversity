@@ -13,3 +13,9 @@ Address;AddressZIP;hanaVARCHAR(5);
 Address;AddressCity;hanaVARCHAR(60);
 Address;AddressStreet;hanaVARCHAR(60);
 Address;AddressStreetNumber;hanaVARCHAR(10);
+;;;
+;;;
+StudentHasAddress;StudentID;Integer;TRUE
+StudentHasAddress;AddressID;Integer;TRUE
+StudentHasAddress;AddressTypeID;Integer;TRUE
+StudentHasAddress;AddressTypeName;hanaVARCHAR(60);
